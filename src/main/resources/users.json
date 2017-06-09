@@ -1,0 +1,35 @@
+[
+  {
+    "id": "id1",
+    "userName": "userName1",
+    "email": "email1@email.com",
+    "address": {
+      "address": "address1",
+      "city": "city1",
+      "country": "country1"
+    },
+    "status": "ACTIVE"
+  },
+  {
+    "id": "id2",
+    "userName": "userName2",
+    "email": "email2@email.com",
+    "address": {
+      "address": "address2",
+      "city": "city2",
+      "country": "country2"
+    },
+    "status": "ACTIVE"
+  },
+  {
+    "id": "id3",
+    "userName": "userName3",
+    "email": "email3@email.com",
+    "address": {
+      "address": "address3",
+      "city": "city3",
+      "country": "country3"
+    },
+    "status": "ACTIVE"
+  }
+]
