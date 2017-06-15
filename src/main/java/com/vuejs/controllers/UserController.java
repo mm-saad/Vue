@@ -49,4 +49,10 @@ public class UserController {
 
         return service.findUser(id);
     }
+
+    @RequestMapping (value = "/allusers", method = RequestMethod.GET)
+    public Iterable <User> findAllUsers() {
+
+        return service.findAllUsers();
+    }
 }

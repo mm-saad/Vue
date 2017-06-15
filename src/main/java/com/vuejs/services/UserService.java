@@ -15,4 +15,8 @@ public class UserService {
 
         return repository.findOne(id);
     }
+
+    public Iterable<User> findAllUsers(){
+        return repository.findAll();
+    }
 }
