@@ -21,11 +21,20 @@
 </template>
 
 <script>
+  import axios from 'axios'
+
 export default {
   name: 'hello',
   data () {
     return {
       msg: 'Welcome to Your Vue.js App'
+    }
+  },
+
+  methods: {
+    addUsers(){
+        axios.post('localhost/9000/api/addusers')
+          .then;
     }
   }
 }
